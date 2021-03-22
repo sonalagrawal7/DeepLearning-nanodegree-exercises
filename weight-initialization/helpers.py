@@ -6,6 +6,7 @@ import torch.nn as nn
 import torch.optim
 
 
+
 def _get_loss_acc(model, train_loader, valid_loader):
     """
     Get losses and validation accuracy of example neural network
